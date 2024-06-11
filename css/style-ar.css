@@ -1,6 +1,21 @@
 html {
-  background-color: red;
+  direction: rtl;
 }
+
+@font-face {
+  font-family: "Dubai";
+  src: url("../fonts/Dubai-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  background-color: green;
+  font-family: "Dubai", sans-serif;
+}
+nav {
+  font-family: "Dubai", sans-serif;
+  font-size: 25.07px;
+  font-weight: 700;
+  line-height: 42.32px;
+  text-align: left;
 }
