@@ -78,11 +78,6 @@ nav ul li a:hover {
   margin-bottom: 3%;
   height: 50%;
 }
-/* #who-us .container .log-container .welcom {
-  height: 30%;
-  position: absolute;
-} */
-
 #who-us .container h1 {
   font-size: 1.8rem;
   font-weight: 700;
@@ -104,7 +99,7 @@ nav ul li a:hover {
   text-align: center;
   height: 30%;
   position: absolute;
-  top: -10%;
+  top: -11.1%;
   z-index: 1;
 }
 
@@ -119,6 +114,5 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
   background-color: #b1414d;
 }
