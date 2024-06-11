@@ -9,35 +9,37 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#who-us" data-i18n="who-us"></a></li>
-          <li><a href="#creativity" data-i18n="creativity"></a></li>
-          <li><a href="#team" data-i18n="team"></a></li>
-          <li><a href="#serves" data-i18n="serves"></a></li>
-        </ul>
-        <ul class="languages">
-          <li>
-            <a href="index.html" onclick="changeLanguage('en')">English</a>
-          </li>
-          <li>
-            <a href="index.html" onclick="changeLanguage('ar')">عربي</a>
-          </li>
-        </ul>
-        <img src="./images/logo.png" alt="logo" />
-      </nav>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#who-us" data-i18n="who-us"></a></li>
+            <li><a href="#creativity" data-i18n="creativity"></a></li>
+            <li><a href="#team" data-i18n="team"></a></li>
+            <li><a href="#serves" data-i18n="serves"></a></li>
+          </ul>
+          <ul class="languages">
+            <li>
+              <a href="index.html" onclick="changeLanguage('en')">English</a>
+            </li>
+            <li>
+              <a href="index.html" onclick="changeLanguage('ar')">عربي</a>
+            </li>
+          </ul>
+          <img src="./images/logo.png" alt="logo" />
+        </nav>
+      </div>
     </header>
     <main>
       <section id="who-us">
         <div class="container">
           <div class="log-container">
             <img src="./images/logo-2.png" alt="logo" />
+          </div>
+          <div class="arabic-man-container">
             <div class="welcom">
               <h1 data-i18n="welcome-p1"></h1>
               <h1 data-i18n="welcome-p2"></h1>
             </div>
-          </div>
-          <div class="arabic-man-container">
             <img
               class="arabic-man"
               src="./images/person.png"
@@ -47,7 +49,15 @@
           <img class="line" src="./images/line.png" alt="line" />
         </div>
       </section>
-      <section id="creativity"></section>
+      <section id="creativity">
+        <div class="container">
+            <div class="creativity-text">
+              <h1 data-i18n="welcome-p1"></h1>
+              <h1 data-i18n="welcome-p2"></h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="team"></section>
       <section id="servies"></section>
     </main>
