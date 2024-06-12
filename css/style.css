@@ -82,13 +82,13 @@ nav ul li a:hover {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 82.93px;
-  text-align: right;
+  text-align: center;
   color: #b1414d;
   white-space: nowrap;
 }
 
 #home .container .arabic-man-container {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,9 +97,11 @@ nav ul li a:hover {
 }
 #home .container .arabic-man-container .welcom {
   text-align: center;
+  width: 100%;
   height: 30%;
   position: absolute;
   top: -11.1%;
+  right: 0;
   z-index: 1;
 }
 
@@ -180,9 +182,15 @@ nav ul li a:hover {
   align-items: center;
   background-color: #edeae3;
   justify-content: center;
-
   position: relative;
 }
+.creativity-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #creativity .container h1 {
   font-size: 4rem;
   font-weight: 700;
@@ -193,6 +201,37 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 3%;
   margin-bottom: 3%;
+}
+.creativity-title .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #b1414d;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+#creativity .container .circle1::before {
+  content: "";
+  width: 3900%;
+  background-color: #b1414d;
+  height: 5px;
+  display: block;
+  top: 25%;
+  left: 90%;
+  position: absolute;
+  overflow: hidden;
+}
+#creativity .container .circle2::after {
+  content: "";
+  width: 2150%;
+  background-color: #b1414d;
+  height: 5px;
+  display: block;
+  top: 25%;
+  right: 90%;
+  position: absolute;
+  overflow: hidden;
 }
 #creativity .container .boxs {
   display: flex;
@@ -276,6 +315,18 @@ nav ul li a:hover {
   color: #b1414d;
   white-space: nowrap;
 }
+#team .container img {
+  width: 100%;
+  height: 100%;
+}
 #team .container .line {
   width: 100%;
+}
+#servies {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b1414d;
+  justify-content: center;
 }
