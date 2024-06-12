@@ -112,7 +112,45 @@ nav ul li a:hover {
 #creativity .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #b1414d;
+  align-items: flex-start;
+  background-color: #edeae3;
+  justify-content: flex-start;
+  background-image: url("../images/section-tow.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#creativity .container .creativity-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-right: 10%;
+  height: 50%;
+  width: 50%;
+}
+#creativity .container .creativity-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 82.93px;
+  text-align: right;
+  color: #b1414d;
+  white-space: nowrap;
+}
+#creativity .container .creativity-text ul li {
+  height: 30%;
+}
+
+#creativity .container .creativity-text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 82.93px;
+  text-align: right;
+  color: #333;
+  white-space: nowrap;
+}
+#creativity .container .line {
+  width: 100%;
 }
