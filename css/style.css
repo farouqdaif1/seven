@@ -189,6 +189,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 #creativity .container h1 {
@@ -213,7 +214,7 @@ nav ul li a:hover {
 }
 #creativity .container .circle1::before {
   content: "";
-  width: 3900%;
+  width: 4000%;
   background-color: #b1414d;
   height: 5px;
   display: block;
@@ -222,9 +223,9 @@ nav ul li a:hover {
   position: absolute;
   overflow: hidden;
 }
-#creativity .container .circle2::after {
+#creativity .container .circle2::before {
   content: "";
-  width: 2150%;
+  width: 4000%;
   background-color: #b1414d;
   height: 5px;
   display: block;
@@ -241,6 +242,7 @@ nav ul li a:hover {
   height: 256px;
   position: absolute;
   top: 20%;
+  z-index: 10;
 }
 #creativity .container .boxs .box {
   width: 25%;
@@ -275,6 +277,7 @@ nav ul li a:hover {
 #creativity .container .images {
   margin-top: 7%;
   width: 100%;
+  z-index: 5;
   position: relative;
 }
 #creativity .container .images img {
