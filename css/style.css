@@ -189,7 +189,7 @@ nav ul li a:hover {
 .creativity-title {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   overflow: hidden;
 }
@@ -204,37 +204,6 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 3%;
   margin-bottom: 3%;
-}
-.creativity-title .circle {
-  width: 10px;
-  height: 10px;
-  background-color: #b1414d;
-  border-radius: 50%;
-  margin-left: 5%;
-  margin-right: 5%;
-  position: relative;
-}
-#creativity .container .circle1::before {
-  content: "";
-  width: 300%;
-  background-color: #b1414d;
-  height: 5px;
-  display: block;
-  top: 25%;
-  right: 10%;
-  position: absolute;
-  overflow: hidden;
-}
-#creativity .container .circle2::before {
-  content: "";
-  width: 4000%;
-  background-color: #b1414d;
-  height: 5px;
-  display: block;
-  top: 25%;
-  right: 90%;
-  position: absolute;
-  overflow: hidden;
 }
 #creativity .container .boxs {
   display: flex;
@@ -311,6 +280,7 @@ nav ul li a:hover {
   align-items: center;
   background-color: #edeae3;
   justify-content: center;
+  position: relative;
 }
 #team .container h1 {
   font-size: 4rem;
@@ -319,6 +289,8 @@ nav ul li a:hover {
   text-align: center;
   color: #b1414d;
   white-space: nowrap;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 #team .container .team-img {
   width: 80%;
@@ -330,6 +302,35 @@ nav ul li a:hover {
   width: 100%;
   height: 100%;
 }
+#team .container .team-img .team-p-container {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 10%;
+  right: 35%;
+}
+#team .container .team-img .team-p-container p {
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 33px;
+  text-align: center;
+  color: black;
+}
+#team .container .team-img .team-p-container p span {
+  font-weight: 700;
+  color: #b1414d;
+}
+
+#team .container .team-img .team-p-container .icon {
+  height: auto;
+  position: absolute;
+  top: -10%;
+  right: 0;
+  z-index: 1;
+}
+
 #team .container .line {
   width: 100%;
 }
@@ -419,8 +420,6 @@ nav ul li a:hover {
   border-width: 0.8rem;
   border-style: solid;
   border-color: transparent #f2efe8 transparent transparent;
-
-  /* border-color: transparent transparent transparent rgba(211, 211, 211, 0); */
 }
 #servies .container .box-serves h4 {
   width: 80%;
