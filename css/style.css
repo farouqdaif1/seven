@@ -683,6 +683,9 @@ nav ul li a:hover {
   text-align: center;
   color: #333333;
 }
+#multi .meulti-head-en {
+  display: none;
+}
 #complete {
   width: 100%;
   background-color: #f2efe8;
@@ -840,12 +843,13 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   color: #f2efe8;
+  /* margin-bottom: 2.5%; */
 }
 footer div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
 }
 footer div .foot-nav {
   width: 20%;

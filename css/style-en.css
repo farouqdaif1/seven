@@ -77,3 +77,52 @@ nav ul {
 .team-des-ar {
   display: none;
 }
+#multi .container .right-container {
+  margin-left: 5%;
+  margin-right: 0;
+}
+#multi .container .left-container p:first-child {
+  text-align: left;
+}
+#multi .container .left-container :nth-child(2) {
+  text-align: left;
+}
+#multi .meulti-head-en {
+  display: block;
+}
+#multi .meulti-head-ar {
+  display: none;
+}
+#multi .container .left-container :nth-child(4) {
+  /* padding: 2.5%; */
+  margin-top: 5%;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 194.63px;
+  text-align: right;
+  color: #b1414d;
+}
+#multi .multi-container-2-header {
+  width: 95%;
+  overflow: hidden;
+  margin-left: 5%;
+  letter-spacing: 0.53em;
+  text-align: center;
+}
+#complete .container .types-of-visual li:last-child {
+  letter-spacing: 0.53em;
+}
+
+footer div .form form {
+  flex-direction: row;
+}
+footer div .form form input {
+  padding: 2%;
+}
+footer div .form form button {
+  padding: 1%;
+  width: 25%;
+}
+footer div .foot-nav {
+  align-items: flex-start;
+}
