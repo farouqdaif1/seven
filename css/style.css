@@ -149,16 +149,7 @@ nav ul li a:hover {
 #who-us .container .who-us-text ul li:first-child {
   margin-right: 2%;
 }
-#who-us .container .who-us-text ul li:first-child::before {
-  content: "";
-  width: 10%;
-  background-color: #b1414d;
-  height: 5px;
-  display: block;
-  top: 16%;
-  left: 103%;
-  position: absolute;
-}
+
 #who-us .container .who-us-text ul li:first-child::marker {
   font-size: 2.25em;
   color: #b1414d;
@@ -311,6 +302,8 @@ nav ul li a:hover {
   position: absolute;
   bottom: 10%;
   right: 35%;
+  display: flex;
+  height: 10%;
 }
 #team .container .team-img .team-p-container p {
   width: 100%;
@@ -323,14 +316,6 @@ nav ul li a:hover {
 #team .container .team-img .team-p-container p span {
   font-weight: 700;
   color: #b1414d;
-}
-
-#team .container .team-img .team-p-container .icon {
-  height: auto;
-  position: absolute;
-  top: -10%;
-  right: 0;
-  z-index: 1;
 }
 
 #team .container .line {

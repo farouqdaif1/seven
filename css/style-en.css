@@ -1,5 +1,78 @@
 html {
   direction: ltr;
+  text-align: left;
+}
+nav ul {
+  width: 60%;
+  text-align: left;
+  font-weight: 500;
+}
+#home .container .log-container {
+  height: 30%;
+  margin-bottom: 0;
+}
+#home .container .arabic-man-container .welcom {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+#home .container .arabic-man-container .welcom h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 0;
+}
+#who-us .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f2efe8;
+  justify-content: flex-start;
+  background-image: url("../images/flib.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  text-align: left;
+}
+#who-us .container .who-us-text {
+  width: 50%;
+  margin-right: 0;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#who-us .container .who-us-text h1 {
+  text-align: left;
+  white-space: nowrap;
+}
+#who-us .container .who-us-text p {
+  text-align: left;
+  white-space: wrap;
+}
+.creativity-title {
+  text-align: center;
+  flex-direction: row-reverse;
+}
+.creativity-title h1 {
+  text-align: center;
+  white-space: nowrap;
+}
+#creativity .container .boxs .box p {
+  font-size: 1rem;
+  text-align: left;
+}
+#team .container .team-img .team-p-container p {
+  text-align: center;
+  font-size: 1rem;
 }
 .team-des-ar {
   display: none;
