@@ -20,6 +20,7 @@ a {
 header {
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f2efe8;
 }
 
 nav {
@@ -31,6 +32,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   height: 80px;
+  background-color: #f2efe8;
 }
 nav ul {
   list-style: none;
@@ -116,7 +118,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #edeae3;
+  background-color: #f2efe8;
   justify-content: flex-start;
   background-image: url("../images/section-tow.png");
   background-size: cover;
@@ -182,7 +184,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #edeae3;
+  background-color: #f2efe8;
   justify-content: center;
   position: relative;
 }
@@ -278,7 +280,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #edeae3;
+  background-color: #f2efe8;
   justify-content: center;
   position: relative;
 }
@@ -696,6 +698,10 @@ nav ul li a:hover {
   text-align: center;
   color: #333333;
 }
+#complete {
+  width: 100%;
+  background-color: #f2efe8;
+}
 #complete .container {
   display: flex;
   flex-direction: column;
@@ -808,4 +814,31 @@ nav ul li a:hover {
   border-width: 0.6rem;
   border-style: solid;
   border-color: transparent #000000 transparent transparent;
+}
+#before-footer {
+  width: 100%;
+  height: 100vh;
+  background-color: #b1414d;
+  background-image: url("../images/befor-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#before-footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#before-footer .container p {
+  width: 60%;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 82.93px;
+  text-align: center;
+  color: #f2efe8;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
