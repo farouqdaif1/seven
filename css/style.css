@@ -620,6 +620,7 @@ nav ul li a:hover {
 #multi {
   width: 100%;
   /* height: 100vh; */
+  background-image: url("../images/medi-section.png");
   background-color: #edeae3;
 }
 #multi .container {
@@ -632,26 +633,66 @@ nav ul li a:hover {
   background-color: #b1414d;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #multi .container .right-container:first-child {
   margin-top: 5%;
 }
 #multi .container .right-container p {
-  margin-top: 3%;
-  font-size: 2.5rem;
+  /* margin-top: 3%; */
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 80px;
   text-align: center;
   color: #f2efe8;
 }
 #multi .container .left-container {
-  padding: 5%;
-  width: 50%;
-  height: 100%;
+  width: 60%;
+  margin-top: 2%;
+  padding: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-#multi .container .left-container p {
-  color: #333;
+#multi .container .left-container p:first-child {
   width: 100%;
-  height: 100%;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 114.27px;
+  text-align: right;
+  color: #b1414d;
+}
+#multi .container .left-container :nth-child(2) {
+  padding: 1%;
+  width: 100%;
+  height: 70%;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 71.43px;
+  text-align: right;
+}
+#multi .container .left-container :nth-child(3) {
+  /* padding: 2.5%; */
+  margin-top: 5%;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 194.63px;
+  text-align: right;
+  color: #b1414d;
+}
+#multi .container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#multi .multi-container-2-header {
+  padding: 2%;
+  width: 100%;
+  font-size: 15rem;
+  font-weight: 700;
+  /* line-height: 194.63px; */
+  text-align: center;
+  color: #333333;
 }
