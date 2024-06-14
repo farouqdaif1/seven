@@ -842,3 +842,100 @@ nav ul li a:hover {
   margin-top: 3%;
   margin-bottom: 3%;
 }
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: #b1414d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background-image: url("../images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f2efe8;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+footer div .foot-nav {
+  width: 20%;
+  height: 100%;
+  color: #f2efe8;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+footer div .foot-nav li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #f2efe8;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 42.32px;
+  text-align: right;
+}
+footer div .logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+footer div .logo img {
+  margin-bottom: 5%;
+}
+footer div .logo .list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+footer div .form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer div .form form {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer div .form form input {
+  width: 70%;
+  height: 100%;
+  padding-right: 5%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 42.32px;
+  text-align: right;
+  border: none;
+  border-radius: 30.71px;
+}
+footer div .form form button {
+  width: 20%;
+  height: 100%;
+  background-color: #333;
+  color: #f2efe8;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 42.32px;
+  text-align: center;
+  border: none;
+  border-radius: 30.71px;
+}
