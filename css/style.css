@@ -645,12 +645,11 @@ nav ul li a:hover {
   text-align: right;
 }
 #multi .container .left-container :nth-child(3) {
-  /* padding: 2.5%; */
   margin-top: 5%;
-  font-size: 18rem;
+  font-size: 10rem;
   font-weight: 700;
   line-height: 194.63px;
-  text-align: right;
+  text-align: center;
   color: #b1414d;
 }
 #multi .container-2 {
@@ -660,11 +659,9 @@ nav ul li a:hover {
   width: 100%;
 }
 #multi .multi-container-2-header {
-  /* padding: 2%; */
   width: 100%;
-  font-size: 15rem;
+  font-size: 10rem;
   font-weight: 700;
-  /* line-height: 194.63px; */
   text-align: center;
   color: #333333;
 }
@@ -1206,6 +1203,9 @@ footer div .form form button {
   footer div .form {
     width: 100%;
   }
+  footer div .form h1 {
+    text-align: center;
+  }
   footer div .form form {
     width: 100%;
     flex-direction: column;
@@ -1269,5 +1269,59 @@ footer div .form form button {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav ul {
+    width: 45%;
+  }
+  #home .container h1 {
+    font-size: 1.7rem;
+  }
+  .languages {
+    width: 20%;
+  }
+  #who-us .container .who-us-text p {
+    font-size: 1.25rem;
+  }
+  #creativity .container .images {
+    margin-top: 25%;
+  }
+  #creativity .container .boxs .box {
+    width: 30%;
+  }
+  #creativity .container .boxs .box p {
+    font-size: 1.1rem;
+  }
+  .creativity-title {
+    justify-content: center;
+  }
+  #creativity .container h1 {
+    font-size: 3rem;
+  }
+  #team .container .team-img .team-p-container {
+    width: 60%;
+    right: 15%;
+  }
+  #servies .container .box-serves {
+    width: 60%;
+  }
+  .step {
+    width: 40%;
+  }
+  #servies .markting-container {
+    justify-content: space-between;
+  }
+  #servies .markting-container .step .step-img img {
+    width: 100%;
+  }
+  #multi .multi-container-2-header {
+    font-size: 9rem;
+  }
+  #complete .container .multi-list li {
+    width: 27%;
+  }
+  .visual-container .visual-content-container {
+    width: 100%;
   }
 }

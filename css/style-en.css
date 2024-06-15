@@ -152,12 +152,21 @@ footer div .foot-nav li a {
   #servies .servies-title .right {
     width: 25%;
   }
+  #servies .container .box-serves p {
+    margin-top: 15%;
+  }
+  #servies .container .box-serves h4 {
+    width: 100%;
+  }
   #multi .container .left-container :nth-child(4) {
     font-size: 8rem;
     text-align: left;
   }
   #multi .container .left-container p:first-child {
     font-size: 3.5rem;
+  }
+  #media .container .box-media p {
+    font-weight: 400;
   }
   footer div .form form {
     flex-direction: column;
