@@ -30,13 +30,35 @@
        
         </nav>
         <nav class="mobile-nav">  
-            <button>
+            <button onclick="toggleMenu()">
           <img src="./images/burger.png" alt="menu" />
         </button>
         <div>
           <img src="./images/logo.png" alt="logo" />
         </div>
         </nav>
+      </div>
+      <div id="burger" class="menu">
+        <div>
+          <button  onclick="toggleMenu()">
+             X
+          </button>
+        </div>
+        <img src="./images/logo.png" alt="logo" />
+        <ul>
+          <li><a href="#who-us" data-i18n="who-us"></a></li>
+          <li><a href="#creativity" data-i18n="creativity"></a></li>
+          <li><a href="#team" data-i18n="team"></a></li>
+          <li><a href="#servies" data-i18n="serves"></a></li>
+        </ul>
+        <ul class="languages">
+          <li>
+            <a href="index.html" onclick="changeLanguage('en')">English</a>
+          </li>
+          <li>
+            <a href="index.html" onclick="changeLanguage('ar')">عربي</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>

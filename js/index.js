@@ -41,3 +41,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     updateContent(langData);
     toggleEnglishStylesheet(userPreferredLanguage);
 });
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
