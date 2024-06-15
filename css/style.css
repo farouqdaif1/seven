@@ -1140,6 +1140,9 @@ footer div .form form button {
     margin-right: auto;
     margin-left: auto;
   }
+  #multi .container .left-container p:first-child {
+    font-size: 3rem;
+  }
   #multi .container .left-container :nth-child(2) {
     width: 100%;
     text-align: center;
