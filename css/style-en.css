@@ -141,3 +141,31 @@ footer div .foot-nav {
 footer div .foot-nav li a {
   text-align: left;
 }
+@media (max-width: 768px) {
+  #home .container .arabic-man-container .welcom {
+    display: none;
+  }
+  #servies .servies-title h1 {
+    font-size: 2rem;
+    width: 40%;
+  }
+  #servies .servies-title .right {
+    width: 25%;
+  }
+  #multi .container .left-container :nth-child(4) {
+    font-size: 8rem;
+    text-align: left;
+  }
+  #multi .container .left-container p:first-child {
+    font-size: 3.5rem;
+  }
+  footer div .form form {
+    flex-direction: column;
+  }
+  footer div .form form button {
+    width: 35%;
+  }
+  footer div .foot-nav {
+    align-items: center;
+  }
+}
