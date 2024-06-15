@@ -1041,6 +1041,12 @@ footer div .form form button {
     margin: 0;
     text-align: center;
   }
+  #who-us .container {
+    background-image: none;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+  }
   #who-us .container .who-us-text {
     align-items: center;
     white-space: wrap;
@@ -1051,15 +1057,18 @@ footer div .form form button {
     margin-bottom: 100%;
   }
   #who-us .container .who-us-text ul {
-    list-style: none;
+    /* list-style: none; */
+    width: 80%;
   }
   #who-us .container .who-us-text ul li {
     width: 100%;
     text-align: center;
+    margin-bottom: 3%;
   }
 
   #who-us .container .who-us-text p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    white-space: wrap;
   }
   #who-us .container .line {
     width: auto;
