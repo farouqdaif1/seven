@@ -1051,7 +1051,7 @@ footer div .form form button {
   }
   #who-us .container {
     background-image: url("../images/section-tow-mob.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
