@@ -145,6 +145,9 @@ footer div .foot-nav li a {
   #home .container .arabic-man-container .welcom {
     display: none;
   }
+  #who-us .container .who-us-text {
+    width: 100%;
+  }
   #servies .servies-title h1 {
     font-size: 2rem;
     width: 40%;
