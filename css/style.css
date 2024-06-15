@@ -975,6 +975,7 @@ footer div .form form button {
     width: 100%;
     text-align: center;
   }
+
   #burger ul li a {
     font-size: 1.5rem;
     color: #f2efe8;
@@ -995,6 +996,8 @@ footer div .form form button {
     color: #f2efe8;
     display: flex;
     padding: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   section {
