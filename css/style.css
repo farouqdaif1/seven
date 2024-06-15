@@ -682,6 +682,10 @@ nav ul li a:hover {
 #complete {
   width: 100%;
   background-color: #f2efe8;
+  background-image: url("../images/multi-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #complete .container {
   display: flex;
