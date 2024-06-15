@@ -77,6 +77,18 @@ nav ul {
 .team-des-ar {
   display: none;
 }
+#team .container .team-img .team-p-container {
+  width: 65%;
+  right: 15%;
+}
+
+#servies .servies-title {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#servies .servies-title h1 {
+  font-size: 3rem;
+}
 #multi .container .right-container {
   margin-left: 5%;
   margin-right: 0;
@@ -96,7 +108,7 @@ nav ul {
 #multi .container .left-container :nth-child(4) {
   /* padding: 2.5%; */
   margin-top: 5%;
-  font-size: 18rem;
+  font-size: 17rem;
   font-weight: 700;
   line-height: 194.63px;
   text-align: right;
@@ -125,4 +137,7 @@ footer div .form form button {
 }
 footer div .foot-nav {
   align-items: flex-start;
+}
+footer div .foot-nav li a {
+  text-align: left;
 }
