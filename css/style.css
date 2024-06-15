@@ -392,7 +392,7 @@ nav ul li a:hover {
   font-weight: 400;
   text-align: right;
 }
-#servies .container .box-serves-p p {
+/* #servies .container .box-serves-p p {
   width: 40%;
   height: 100%;
   display: flex;
@@ -413,7 +413,7 @@ nav ul li a:hover {
   border-width: 0.8rem;
   border-style: solid;
   border-color: transparent #f2efe8 transparent transparent;
-}
+} */
 #servies .container .box-serves h4 {
   width: 80%;
   color: #f2efe8;
@@ -432,7 +432,7 @@ nav ul li a:hover {
   text-align: center;
   color: #f2efe8;
 }
-#servies .container .serves-images {
+/* #servies .container .serves-images {
   width: 70%;
   height: 30%;
   margin-bottom: 2.5%;
@@ -452,7 +452,43 @@ nav ul li a:hover {
 #servies .container .box-serves .serves-images img {
   width: 100%;
   height: 100%;
+} */
+#servies .markting-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
 }
+#servies .markting-container .step .step-p {
+  margin-bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5%;
+  font-size: 1.4rem;
+  background-color: #7e181e;
+  border-top-right-radius: 30.71px;
+  color: #f2efe8;
+  position: relative;
+}
+#servies .markting-container .step .step-p::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: -5%;
+  border-width: 0.8rem;
+  border-style: solid;
+  border-color: transparent #f2efe8 transparent transparent;
+}
+#servies .markting-container .step .step-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #servies .container .line {
   width: 100%;
 }
