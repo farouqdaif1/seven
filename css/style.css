@@ -952,13 +952,16 @@ footer div .form form button {
     justify-content: center;
     align-items: center;
     width: 65%;
-    margin-right: 8%;
+    /* margin-right: 8%; */
   }
   #home .container .welcom-mob h1 {
     text-align: center;
     white-space: wrap;
     line-height: normal;
     margin: 0;
+  }
+  #home .container .arabic-man-container img {
+    margin-left: 8%;
   }
   .arabic-man-container .arabic-man {
     width: 80%;
