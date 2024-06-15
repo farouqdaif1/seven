@@ -178,3 +178,49 @@ footer div .foot-nav li a {
     align-items: center;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #creativity .container .boxs .box .box-header h3 {
+    text-align: left;
+  }
+  #creativity .container .boxs .box p {
+    font-size: "1.5rem";
+  }
+  #creativity .container .images {
+    margin-top: 35%;
+  }
+  #creativity .container .boxs {
+    height: 330px;
+  }
+  #media .container .box-media h4 {
+    width: 100%;
+  }
+  #media .container .box-media .creative-container {
+    top: -5.5%;
+  }
+  #multi .container .left-container :nth-child(4) {
+    font-size: 10rem;
+    text-align: left;
+  }
+  .visual-container {
+    width: 90%;
+  }
+  .visual-container .visual-content-p {
+    width: 100%;
+    text-align: left;
+  }
+  #complete .container .types-of-visual {
+    width: 90%;
+  }
+  #before-footer {
+    height: 70vh;
+  }
+  #before-footer .container p {
+    width: 90%;
+  }
+  footer div .form form button {
+    width: 40%;
+  }
+  footer div .foot-nav {
+    width: 30%;
+  }
+}
