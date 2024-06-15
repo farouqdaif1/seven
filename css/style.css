@@ -131,6 +131,7 @@ nav ul li a:hover {
 #home .container .line {
   width: 100%;
 }
+
 #who-us .container {
   display: flex;
   flex-direction: column;
@@ -1049,11 +1050,12 @@ footer div .form form button {
     margin: 0;
     text-align: center;
   }
+
   #who-us .container {
     background-image: url("../images/section-tow-mob.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
   }
   #who-us .container .who-us-text {
     align-items: center;
@@ -1062,7 +1064,7 @@ footer div .form form button {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
-    margin-bottom: 100%;
+    margin-bottom: 75%;
   }
   #who-us .container .who-us-text ul {
     /* list-style: none; */
@@ -1078,6 +1080,7 @@ footer div .form form button {
     font-size: 1.5rem;
     white-space: wrap;
   }
+
   #who-us .container .line {
     width: auto;
   }
