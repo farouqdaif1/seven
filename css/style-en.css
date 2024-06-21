@@ -145,6 +145,18 @@ footer div .foot-nav li a {
   #home .container .arabic-man-container .welcom {
     display: none;
   }
+  #home .container .welcom-mob h1 {
+    font-size: 1.5rem;
+  }
+  .mobile-nav button {
+    left: 0;
+  }
+  #who-us .container .who-us-text h1 {
+    font-size: 3rem;
+  }
+  #who-us .container .who-us-text {
+    margin-left: 10%;
+  }
   #who-us .container {
     background-image: url("../images/section-tow-mob.png");
     background-size: contain;
@@ -168,11 +180,17 @@ footer div .foot-nav li a {
     width: 100%;
   }
   #multi .container .left-container :nth-child(4) {
-    font-size: 8rem;
-    text-align: left;
+    width: 95%;
+    overflow: hidden;
+    margin-left: 5%;
+    letter-spacing: 0.53em;
+    text-align: center;
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: normal;
   }
   #multi .container .left-container p:first-child {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   #media .container .box-media p {
     font-weight: 400;

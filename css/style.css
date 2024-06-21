@@ -932,14 +932,19 @@ footer div .form form button {
   }
   .mobile-nav {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
     padding: 2.5%;
+    position: relative;
   }
   .mobile-nav button {
     width: 20%;
     outline: none;
     border: none;
     background-color: transparent;
+    position: absolute;
+    right: 0%;
   }
 
   .mobile-nav div {
@@ -1048,7 +1053,7 @@ footer div .form form button {
   }
   #who-us .container .who-us-text h1 {
     margin: 0;
-    text-align: center;
+    text-align: right;
   }
 
   #who-us .container {
@@ -1231,11 +1236,11 @@ footer div .form form button {
     text-align: center;
   }
   #multi .container .left-container :nth-child(3) {
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
   }
   #multi .multi-container-2-header {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   #complete .container .multi-list {
     flex-direction: column;
